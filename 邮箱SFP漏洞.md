@@ -4,7 +4,7 @@ This is a Kali script.
 #!/bin/bash
 
 while IFS= read -r line; do
-  swaks --body "Hacked by siyannon" --header "Subject: $line Hacker" --h-From: "$line <notify@$line>" -f notify@$line -t  siyannon688@163.com --header-X-Mailer $line
+  swaks --body "Hacked by siyannon" --header "Subject: $line Hacker" --h-From: "$line <notify@$line>" -f notify@$line -t  siyannonxxx@163.com --header-X-Mailer $line
 done < domain.txt![image](https://github.com/siyannon/-/assets/164863911/d86dc509-baaf-4ba1-b862-bc448a4d91fb)
 
 By running the above script, the specified content within the script will be sent to the designated email address.
