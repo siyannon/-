@@ -1,1 +1,1 @@
-Jemail SPF check
+Email SPF check
